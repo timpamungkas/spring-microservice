@@ -20,6 +20,8 @@ Read [here](https://www.nginx.com/blog/introduction-to-microservices) or [here](
 * Tomcat
 * Swagger + Springfox for API Documentation
 
+Please note that jhipster does **NOT** support [lombok](http://projectlombok.org/) and they don't want to use it. See [this issue](https://github.com/jhipster/generator-jhipster/issues/398). **Adding lombok library to your project will cause error when running the project!**.
+
 All technologies will be based on latest technology version. By the time this document was written, it were :
 
 * Java 8
@@ -54,6 +56,7 @@ Create your own microservice using [JHipster Generator](https://jhipster.github.
 
 ## Run The Example Project
 Example project in this repository can runs basic microservice on development environment. If you want to see what microservice infrastructure looks like, here is the guide:
+
 1. Make sure that you have required tools above installed. Because this sample project use maven, I'll use maven syntax for running project.
 2. Clone this repository
 3. Go to folder spring-ms-registry and starts it. As spring boot app, you can run it via shell with following command: `mvn spring-boot:run`
@@ -66,7 +69,7 @@ Example project in this repository can runs basic microservice on development en
 ## Development Guideline
 Detailed development guidelines will be provided on each project documentation:
 
-* Main documentation (this document)
-* Service Registry documentation
-* API Gateway documentation
-* Sample microservice app documentation
+* [Main documentation](https://github.com/timpamungkas/spring-microservice/blob/master/documentations/spring-ms-main-guideline.md) (this document)
+* [Service Registry documentation](https://github.com/timpamungkas/spring-microservice/blob/master/documentations/spring-ms-registry-guideline.md)
+* [API Gateway documentation](https://github.com/timpamungkas/spring-microservice/blob/master/documentations/spring-ms-gateway-guideline.md)
+* [Sample microservice app documentation](https://github.com/timpamungkas/spring-microservice/blob/master/documentations/spring-ms-hello-guideline.md)
