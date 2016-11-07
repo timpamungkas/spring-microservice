@@ -12,6 +12,8 @@ Read [here](https://www.nginx.com/blog/introduction-to-microservices) or [here](
 * Familiar with [Maven](http://maven.apache.org/) or [Gradle](https://gradle.org/)
 * Understanding REST concept:  GET, POST, PUT, etc, HTTP Headers, JSON
 
+If you need basic technical explanation about microservice using Spring Cloud, seet [my other repo](https://github.com/timpamungkas/base-microservice)
+
 ### Technology Stack
 * Java (JDK)
 * Spring MVC
