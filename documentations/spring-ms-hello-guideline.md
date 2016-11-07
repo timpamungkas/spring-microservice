@@ -1,5 +1,5 @@
 # Hello JHipster
-Sampple microservice created using [JHipster Generator](https://jhipster.github.io/creating-an-app/). Basically this is a Spring Boot applications that runs as [Eureka Client](https://github.com/spring-cloud/spring-cloud-netflix/blob/master/docs/src/main/asciidoc/spring-cloud-netflix.adoc#service-discovery-eureka-clients). 
+Sample microservice created using [JHipster Generator](https://jhipster.github.io/creating-an-app/). Basically this is a Spring Boot applications that runs as [Eureka Client](https://github.com/spring-cloud/spring-cloud-netflix/blob/master/docs/src/main/asciidoc/spring-cloud-netflix.adoc#service-discovery-eureka-clients). 
 
 ## !!! Source Code in This Repository
 This source code repository is meant only for example purpose. When creating a new project, it is recommended that you use create new JHipster application using latest JHispter release.
@@ -19,3 +19,16 @@ In this example, I use JHipster 3.10 with following combination (my answer in **
 9. (9/13) Which other technologies would you like to use? **None**
 10. (10/13) Would you like to enable internationalization support? **No**
 11. (11/13) Which testing frameworks would you like to use? **None**
+
+## Features
+* [Hello World REST](https://github.com/timpamungkas/spring-microservice/tree/master/spring-ms-hello/src/main/java/com/springms/hello/web/rest/hello)
+* [JPA repository](https://github.com/timpamungkas/spring-microservice/tree/master/spring-ms-hello/src/main/java/com/springms/hello/repository/hello)
+* Dummy data injector [here](https://github.com/timpamungkas/spring-microservice/tree/master/spring-ms-hello/src/main/java/com/springms/hello/injector)
+
+## Run The Example
+1. Make sure that service registry up and running on port 8761
+2. (Optional) Make sure that API gateway up and running on port 8080
+3. Run this project using `mvn spring-boot:run`
+4. Check on http://localhost:8081/ping/{your_name} or http://localhost:8081/list. If you turn on API gateway, change address to http://localhost:8080/hello/ping/{your_name} or http://localhost:8080/hello/list
+
+If you need basic technical explanation about microservice using Spring Cloud, seet [my other repo](https://github.com/timpamungkas/base-microservice)
