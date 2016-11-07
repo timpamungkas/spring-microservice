@@ -20,6 +20,8 @@ Read [here](https://www.nginx.com/blog/introduction-to-microservices) or [here](
 * Tomcat
 * Swagger + Springfox for API Documentation
 
+Please note that jhipster does **NOT** support [lombok](http://projectlombok.org/) and they don't want to use it. See [this issue](https://github.com/jhipster/generator-jhipster/issues/398). **Adding lombok library to your project will cause error when running the project!**.
+
 All technologies will be based on latest technology version. By the time this document was written, it were :
 
 * Java 8
