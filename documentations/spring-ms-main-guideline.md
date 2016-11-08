@@ -29,7 +29,7 @@ All technologies will be based on latest technology version. By the time this do
 * Java 8
 * Spring Boot 1.4.1.RELEASE
 * Spring Cloud Camden.SR2
-* Springfox 2.5. Currently Springfox has 2.6.0 release, but it has issue with Eureka.
+* Springfox 2.5. Currently Springfox has 2.6.0 release, but it has [issue with Eureka](https://github.com/spring-cloud/spring-cloud-netflix/issues/1398]).
 
 ## Overview
 ### Installation
