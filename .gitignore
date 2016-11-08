@@ -6,8 +6,6 @@
 *.mvn
 *.settings
 *.springBeans
-mvnw
-mvnw.cmd
 target/
 
 # Mobile Tools for Java (J2ME)
