@@ -75,5 +75,4 @@ Detailed development guidelines will be provided on each project documentation:
 * [Service Registry documentation](https://github.com/timpamungkas/spring-microservice/blob/master/documentations/spring-ms-registry-guideline.md)
 * [API Gateway documentation](https://github.com/timpamungkas/spring-microservice/blob/master/documentations/spring-ms-gateway-guideline.md)
 * Sample microservice app documentation
-  * [Hello world server only](https://github.com/timpamungkas/spring-microservice/blob/master/documentations/spring-ms-hello_server-guideline.md)
   * [Hello world client + server](https://github.com/timpamungkas/spring-microservice/blob/master/documentations/spring-ms-hello-guideline.md)
