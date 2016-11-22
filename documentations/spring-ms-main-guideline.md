@@ -76,3 +76,4 @@ Detailed development guidelines will be provided on each project documentation:
 * [API Gateway documentation](https://github.com/timpamungkas/spring-microservice/blob/master/documentations/spring-ms-gateway-guideline.md)
 * Sample microservice app documentation
   * [Hello world client + server](https://github.com/timpamungkas/spring-microservice/blob/master/documentations/spring-ms-hello-guideline.md)
+  * Sample jhipster app with entity : [Employee](https://github.com/timpamungkas/spring-microservice/blob/entity/documentations/spring-ms-employee-guideline.md)
