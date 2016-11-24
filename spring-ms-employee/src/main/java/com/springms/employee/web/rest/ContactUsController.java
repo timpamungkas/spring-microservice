@@ -14,7 +14,7 @@ public class ContactUsController {
 	
 	@GetMapping("/test")
 	public String test() {
-		return "Hello employee: " + contactUsService.count();
+		return "Hello employee: " + contactUsService.count() + ", " + contactUsService.findSome();
 	}
 	
 }
