@@ -17,13 +17,12 @@
     "serviceDiscoveryType": "eureka",
     "buildTool": "maven",
     "enableSocialSignIn": false,
-    "jwtSecretKey": "67dc6d4a687d97b10bd08801bda0d242e1bc15fb",
+    "jwtSecretKey": "87aa88b3ca278ab5dc9508004cc518eb7af5d28c",
     "enableTranslation": false,
     "applicationType": "microservice",
     "testFrameworks": [],
     "jhiPrefix": "jhi",
     "skipClient": true,
-    "skipUserManagement": true,
-    "useSass": false
+    "skipUserManagement": true
   }
 }
