@@ -1,0 +1,8 @@
+version: '2'
+services:
+    employee-sonar:
+        container_name: employee-sonar
+        image: sonarqube:6.1-alpine
+        ports:
+            - 9000:9000
+            - 9092:9092
