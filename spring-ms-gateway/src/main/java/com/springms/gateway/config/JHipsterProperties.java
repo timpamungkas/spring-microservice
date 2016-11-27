@@ -139,12 +139,22 @@ public class JHipsterProperties {
 
         private String from = "gateway@localhost";
 
+        private String baseUrl = "";
+
         public String getFrom() {
             return from;
         }
 
         public void setFrom(String from) {
             this.from = from;
+        }
+
+        public String getBaseUrl() {
+            return baseUrl;
+        }
+
+        public void setBaseUrl(String baseUrl) {
+            this.baseUrl = baseUrl;
         }
     }
 
@@ -295,18 +305,12 @@ public class JHipsterProperties {
 
         private final Jmx jmx = new Jmx();
 
-        private final Spark spark = new Spark();
-
         private final Graphite graphite = new Graphite();
 
         private final Logs logs = new Logs();
 
         public Jmx getJmx() {
             return jmx;
-        }
-
-        public Spark getSpark() {
-            return spark;
         }
 
         public Graphite getGraphite() {
@@ -327,39 +331,6 @@ public class JHipsterProperties {
 
             public void setEnabled(boolean enabled) {
                 this.enabled = enabled;
-            }
-        }
-
-        public static class Spark {
-
-            private boolean enabled = false;
-
-            private String host = "localhost";
-
-            private int port = 9999;
-
-            public boolean isEnabled() {
-                return enabled;
-            }
-
-            public void setEnabled(boolean enabled) {
-                this.enabled = enabled;
-            }
-
-            public String getHost() {
-                return host;
-            }
-
-            public void setHost(String host) {
-                this.host = host;
-            }
-
-            public int getPort() {
-                return port;
-            }
-
-            public void setPort(int port) {
-                this.port = port;
             }
         }
 
