@@ -6,7 +6,6 @@ import java.util.Set;
 
 import com.springms.gateway.domain.User;
 import com.springms.gateway.service.dto.UserDTO;
-import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 /**

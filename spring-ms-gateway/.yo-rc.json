@@ -1,6 +1,6 @@
 {
   "generator-jhipster": {
-    "jhipsterVersion": "3.10.0",
+    "jhipsterVersion": "3.11.0",
     "baseName": "gateway",
     "packageName": "com.springms.gateway",
     "packageFolder": "com/springms/gateway",
@@ -17,7 +17,7 @@
     "serviceDiscoveryType": "eureka",
     "buildTool": "maven",
     "enableSocialSignIn": false,
-    "jwtSecretKey": "ea52e3e8123227a31d3f5e0b6ebc4aab6ef302b6",
+    "jwtSecretKey": "882d74452cf596c7611ab5488fed3fab71307b37",
     "useSass": false,
     "applicationType": "gateway",
     "testFrameworks": [],

@@ -4,7 +4,7 @@
     angular
         .module('gatewayApp')
         .filter('characters', characters);
-        
+
     function characters () {
         return charactersFilter;
 
