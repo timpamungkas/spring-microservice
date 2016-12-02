@@ -3,7 +3,7 @@
 
     angular
         .module('gatewayApp', [
-            'ngStorage', 
+            'ngStorage',
             'ngResource',
             'ngCookies',
             'ngAria',
