@@ -44,6 +44,14 @@ This is parameter I used when generate the **Employee**:
 4. Do you want to use separate service class for your business logic? **Yes, generate a separate service class**
 5. Do you want pagination on your entity? **Yes, with pagination links**
 
+Note a few things :
+
+ - JHipster will generate an `id` column automatically
+ - JHipster will generate column name with proper naming fashion (for Java and database). Thus, fields above will be correctly named based on naming convention. In Java fields, this means camel case as I typed : `fullName`, `birthDate`, `gender`, `idNumber`, while on database (annotated with `@Column`) this will be named as `full_name`, `birth_date`, `gender`, and `id_number`
+ - JHipster will generate all getters, setters, `toString()`, `hashCode()`, and `equals()` based on all columns
+
+Entity will be generated as Hibernate style class, under `domain` sub-package. You can customize the generated entity further, but note that when you creating client side using JHipster, your customization might not included on client side.
+
 ## Creating the Entity without JHipster Engine
 Yes this can be done. Basically you just create your own domain (`@Entity` class), create spring `JPARepository` or `CrudRepository` for your domain. And if you want to, you can create the boilerplate `DAO`, `Service`, and `ServiceImpl`. This is quite useful if you migrating from existing spring app into JHipster.
 However if you create a new microservice, or a new entity, JHipster is really helpful in reducing your time writing skeleton codes.
@@ -59,3 +67,5 @@ If you need basic technical explanation about microservice using Spring Cloud, s
 Jhipster's 3.11 default hibernate version is 4.x.x, while currently hibernate already on hibernate 5. I try to update hibernate version into 5.2.x.Final, but it seems hibernate 5.2.x is not compatible with jhipster 3.11, because I keep getting error
 
 In this case, if you want to use hibernate 5 ([why](http://stackoverflow.com/questions/31965179/whats-new-in-hibernate-5)) just use version `5.1.2.Final`
+
+However, it's not without any reason that JHipster people does not update (yet) hibernate to version 5. By default, JHipster suggest [hazelcast](https://hazelcast.com/use-cases/caching/hibernate-second-level-cache/) for caching. By the time this article was written (JHipster 3.11 and Hibernate 5.x), Hazelcast has not provided support for Hibernate 5. So the decision is in your hand which hibernate version will you use.
